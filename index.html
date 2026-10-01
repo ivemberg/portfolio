@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ivo Bettini · App</title>
+<meta name="description" content="Ivo Bettini fa app per iPhone, Android e web a Milano. Qui trovi le app pubblicate e quelle in arrivo: Recevia, Slottami, Hai pagato? e altro.">
+<meta name="theme-color" content="#F7F5F0">
+<link rel="canonical" href="https://ivemberg.github.io/portfolio/">
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="it_IT">
+<meta property="og:site_name" content="Ivo Bettini">
+<meta property="og:title" content="Ivo Bettini · App">
+<meta property="og:description" content="App per iPhone, Android e web, fatte a Milano. Quelle pubblicate e quelle in arrivo.">
+<meta property="og:url" content="https://ivemberg.github.io/portfolio/">
+<meta property="og:image" content="https://ivemberg.github.io/portfolio/assets/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Ivo Bettini · App per iPhone, Android e web">
+<meta name="twitter:card" content="summary_large_image">
+
+<link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png">
+<link rel="icon" type="image/png" sizes="192x192" href="assets/favicon-192.png">
+<link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&amp;family=Geist:wght@400;500;600&amp;family=JetBrains+Mono:wght@400;500&amp;display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<script src="main.js" defer></script>
+</head>
+<body>
+<a class="skip-link" href="#app">Vai alle app</a>
+
+<header class="nav wrap">
+  <a class="brand" href="#top" aria-label="Ivo Bettini, torna su">
+    <span class="monogram" aria-hidden="true">iv</span>
+    <span class="brand-name">Ivo Bettini</span>
+  </a>
+  <nav aria-label="Principale">
+    <ul class="nav-links">
+      <li><a href="#app">App</a></li>
+      <li><a href="#supporto">Supporto</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main id="top">
+  <section class="hero wrap" aria-labelledby="hero-title">
+    <div class="hero-text">
+      <h1 id="hero-title">Ciao, sono Ivo.</h1>
+      <p>Faccio app per iPhone, Android e web. Vivo a Milano: di giorno lavoro per una delle più grandi aziende di consulenza, la sera mi diverto. Qui trovi le app che ho pubblicato e quelle a cui sto lavorando.</p>
+      <div class="hero-links">
+        <a class="pill pill-dark" href="https://github.com/ivemberg">GitHub</a>
+        <a class="pill" href="https://www.linkedin.com/in/ivo-junior-bettini-498ab2172/">LinkedIn</a>
+        <a class="pill" href="mailto:ivojuniorbettini@gmail.com">ivojuniorbettini@gmail.com</a>
+      </div>
+    </div>
+    <img class="hero-photo" src="assets/ivo.jpg" alt="Ivo Bettini" width="220" height="220">
+  </section>
+
+  <section id="app" class="apps wrap" aria-labelledby="app-title">
+    <div class="apps-head">
+      <h2 id="app-title">App</h2>
+      <span class="count" id="app-count" aria-live="polite">5 APP</span>
+    </div>
+
+    <div class="filters" role="group" aria-label="Filtra le app">
+      <button type="button" class="filter" data-filter="all" aria-pressed="true">Tutte</button>
+      <button type="button" class="filter" data-filter="iphone" aria-pressed="false">iPhone</button>
+      <button type="button" class="filter" data-filter="android" aria-pressed="false">Android</button>
+      <button type="button" class="filter" data-filter="web" aria-pressed="false">Web</button>
+      <button type="button" class="filter" data-filter="live" aria-pressed="false">Disponibili</button>
+      <button type="button" class="filter" data-filter="soon" aria-pressed="false">In arrivo</button>
+    </div>
+
+    <ul class="grid" id="app-grid">
+      <li class="card-item" data-platforms="iphone" data-live="true">
+        <a class="card" href="https://apps.apple.com/it/app/recevia/id6760703339">
+          <picture class="app-icon"><source srcset="assets/icons/recevia.webp" type="image/webp"><img src="assets/icons/recevia.png" alt="Icona di Recevia" width="64" height="64"></picture>
+          <h3 class="card-title">Recevia</h3>
+          <p class="card-text">Trasferte e scontrini in ordine, con report PDF pronto da consegnare.</p>
+          <span class="card-meta"><span class="platforms">IPHONE</span><span class="badge badge-live">Disponibile</span></span>
+        </a>
+      </li>
+
+      <li class="card-item" data-platforms="web iphone android" data-live="true">
+        <a class="card" href="https://www.slottami.it">
+          <span class="app-icon app-icon-framed"><picture><source srcset="assets/icons/slottami.webp" type="image/webp"><img src="assets/icons/slottami.png" alt="Icona di Slottami" width="44" height="44"></picture></span>
+          <h3 class="card-title">Slottami</h3>
+          <p class="card-text">L'agenda delle guide per le autoscuole: istruttori e allievi prenotano gli slot, addio diario di carta.</p>
+          <span class="card-meta"><span class="platforms">WEB · IPHONE · ANDROID</span><span class="badge badge-live">Disponibile</span></span>
+        </a>
+      </li>
+
+      <li class="card-item" data-platforms="iphone android" data-live="false">
+        <a class="card" href="https://ivemberg.github.io/">
+          <picture class="app-icon"><source srcset="assets/icons/haipagato.webp" type="image/webp"><img src="assets/icons/haipagato.png" alt="Icona di Hai pagato?" width="64" height="64"></picture>
+          <h3 class="card-title">Hai pagato?</h3>
+          <p class="card-text">Area C e pedaggi free flow senza multe: Pedemontana, A59, A60, A33, Corda Molle.</p>
+          <span class="card-meta"><span class="platforms">IPHONE · ANDROID</span><span class="badge badge-review">In review</span></span>
+        </a>
+      </li>
+
+      <li class="card-item" data-platforms="iphone" data-live="false">
+        <div class="card card-dark">
+          <svg class="app-icon" width="64" height="64" viewBox="0 0 72 72" role="img" aria-label="Icona di ECO"><rect x="0.5" y="0.5" width="71" height="71" rx="17" fill="#000000" stroke="#3A3934"/><circle cx="24" cy="36" r="3.5" fill="#F2EFE8"/><path d="M32 27a13 13 0 0 1 0 18" stroke="#F2EFE8" stroke-opacity="0.8" stroke-width="2.6" stroke-linecap="round" fill="none"/><path d="M39 21a21 21 0 0 1 0 30" stroke="#F2EFE8" stroke-opacity="0.5" stroke-width="2.6" stroke-linecap="round" fill="none"/><path d="M46 15a29 29 0 0 1 0 42" stroke="#F2EFE8" stroke-opacity="0.25" stroke-width="2.6" stroke-linecap="round" fill="none"/></svg>
+          <h3 class="card-title card-title-eco">ECO</h3>
+          <p class="card-text">Un horror psicologico per iPhone. Per ora non dico altro.</p>
+          <span class="card-meta"><span class="platforms">IPHONE</span><span class="badge badge-dev">In sviluppo</span></span>
+        </div>
+      </li>
+
+      <li class="card-item" data-platforms="iphone" data-live="false">
+        <div class="card card-secret">
+          <svg class="app-icon" width="64" height="64" viewBox="0 0 72 72" role="img" aria-label="Icona con lucchetto"><rect x="1" y="1" width="70" height="70" rx="16" fill="#EFECE4" stroke="#C9C4B8" stroke-dasharray="4 4"/><rect x="25" y="34" width="22" height="18" rx="4" fill="#151513"/><path d="M29 34v-5a7 7 0 0 1 14 0v5" stroke="#151513" stroke-width="3.5" fill="none"/><circle cx="36" cy="42" r="2.4" fill="#F5B83D"/></svg>
+          <h3 class="card-title">Progetto segreto</h3>
+          <p class="card-text">Un'app nuova per un iPhone nuovo. Si scopre il giorno del lancio.</p>
+          <span class="card-meta"><span class="platforms">IPHONE</span><span class="badge badge-date">23 ottobre</span></span>
+        </div>
+      </li>
+    </ul>
+  </section>
+</main>
+
+<div class="dark">
+  <section id="supporto" class="support wrap" aria-labelledby="support-title">
+    <div class="support-intro">
+      <h2 id="support-title">Supporto</h2>
+      <p>Ogni app ha la sua pagina di supporto e la sua privacy policy. Rispondo io, di persona.</p>
+    </div>
+    <ul class="support-list">
+      <li class="support-row">
+        <span class="support-app">Recevia</span>
+        <span class="support-links">
+          <a href="https://ivemberg.github.io/recevia-site/support.html">Supporto<span class="sr-only"> Recevia</span></a>
+          <a href="https://ivemberg.github.io/recevia-site/privacy.html">Privacy<span class="sr-only"> Recevia</span></a>
+          <a href="mailto:recevia.support@gmail.com">Email<span class="sr-only"> supporto Recevia</span></a>
+        </span>
+      </li>
+      <li class="support-row">
+        <span class="support-app">Slottami</span>
+        <span class="support-links">
+          <a href="https://www.slottami.it/supporto">Supporto<span class="sr-only"> Slottami</span></a>
+          <a href="https://www.slottami.it/privacy">Privacy<span class="sr-only"> Slottami</span></a>
+          <a href="https://www.slottami.it/termini">Termini<span class="sr-only"> Slottami</span></a>
+        </span>
+      </li>
+      <li class="support-row">
+        <span class="support-app">Hai pagato?</span>
+        <span class="support-links">
+          <a href="mailto:haipagato.privacy@protonmail.com">Supporto<span class="sr-only"> Hai pagato? (email)</span></a>
+          <a href="https://ivemberg.github.io/haipagato-rules/privacy/">Privacy<span class="sr-only"> Hai pagato?</span></a>
+        </span>
+      </li>
+    </ul>
+  </section>
+
+  <footer class="footer wrap">
+    <span>© 2026 Ivo Junior Bettini · Milano</span>
+    <span class="footer-links">
+      <a href="https://github.com/ivemberg">GitHub</a>
+      <a href="https://www.linkedin.com/in/ivo-junior-bettini-498ab2172/">LinkedIn</a>
+    </span>
+  </footer>
+</div>
+</body>
+</html>
