@@ -280,6 +280,31 @@ a.card:hover {
 a.card:hover .card-title { color: var(--accent); }
 a.card:focus-visible { outline-offset: 4px; }
 
+.store-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.store-link {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  padding: 0 16px;
+  border-radius: 999px;
+  border: 1px solid var(--line-card);
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--ink);
+  text-decoration: none;
+  transition: border-color .15s ease, background-color .15s ease;
+}
+.store-link:hover {
+  color: var(--ink);
+  border-color: #D3CEC2;
+  background: #F7F5F0;
+}
+.store-link:focus-visible { outline-offset: 2px; }
+
 .app-icon {
   width: 64px;
   height: 64px;
