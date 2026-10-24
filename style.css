@@ -369,6 +369,7 @@ picture.app-icon img { width: 100%; height: 100%; }
 .badge-review { background: #FEF3C7; color: #92400E; }
 .badge-date   { background: #FFEDD5; color: #9A3412; }
 .badge-dev    { background: #2A2925; color: #D9D5CC; }
+.badge-team   { background: #E0E7FF; color: #3730A3; }
 
 .card-dark {
   background: var(--ink);
